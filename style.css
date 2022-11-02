@@ -110,7 +110,7 @@ nav ul a:hover {
   transition: all .3s ease;
 }
 
-.hamburger{
+#hamburger{
   display: none;
 }
 
@@ -457,7 +457,6 @@ section#footer{
   }
 }
 
-
 @media (max-width: 850px){
 .container{
   max-width: 800px;
@@ -469,17 +468,15 @@ section#footer{
   padding: 1rem auto; 
 }
 
-
 nav ul{
   display: none;
 }
 
- .hamburger{
+ #hamburger{
    display: block;
-
  }
  
- .hamburger > div{
+ #hamburger > div{
   width: 25px;
   height: 3px;
   background-color: var(--white-color);
@@ -488,8 +485,6 @@ nav ul{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
-
 
 /*  */
 .hero-wrapper{
