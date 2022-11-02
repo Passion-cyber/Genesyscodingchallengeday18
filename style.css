@@ -101,9 +101,8 @@ nav ul a:hover {
   margin-left: 2rem;
   border-radius: 5px;
   transition: color .3s ease;
-
-
 }
+
 .resume:hover{
   background-color: var(--black-color);
   border: 1px solid var(--golden-color);
@@ -465,6 +464,11 @@ section#footer{
   padding: 0 auto;
   margin: 0 auto;
 }
+
+.header-wrapper{
+  padding: 1rem auto; 
+}
+
 
 nav ul{
   display: none;
