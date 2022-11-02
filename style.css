@@ -411,6 +411,7 @@ section#footer{
 }
 
 .footer-nav ul a{
+  font-size: 1rem;
   margin-left: 10px;
   transition: all 0.3s ease;
 }
