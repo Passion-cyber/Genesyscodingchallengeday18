@@ -24,7 +24,8 @@ html {
   overflow-x: hidden;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
 }
 
@@ -243,9 +244,6 @@ section#services{
 
 /* SUB-SECTION CORE STYLES */
 .sub-section-wrapper{
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-content: center;
@@ -321,7 +319,7 @@ section#services{
 
 .image-bg img{
   border-radius: 12px;
-  width: 100%;
+width: 100%;
 }
 
 .item-description{
@@ -410,7 +408,7 @@ section#footer{
 }
 
 .footer-nav ul a{
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-left: 10px;
   transition: all 0.3s ease;
 }
@@ -725,5 +723,9 @@ gap: 3rem;
  flex: 3;
  align-self: flex-start;
  padding-left: 1rem;
+}
+.footer-nav ul a{
+  font-size: 1rem;
+
 }
 }
